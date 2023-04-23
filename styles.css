@@ -6,7 +6,12 @@
     font-family: 'Inter', sans-serif;
     color: #333;
 }
-@media (max-width: 1250px) {
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    min-width: 500px;
+}
+@media (max-width: 1000px) {
     #big-design {
         display: none;
     }
@@ -16,8 +21,16 @@ header {
     text-align: center;
     text-decoration: underline;
     color: #3a3a3a;
+    height: 4rem;
+    background-color: white;
+    padding: .25rem;
 }
-
+header p {
+    background-color: white;
+}
+form {
+    width: 500px;
+}
 
 #design-template-wrapper {
     display: flex;
