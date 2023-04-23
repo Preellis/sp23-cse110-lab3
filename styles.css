@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+/* Global Formatting */
 * {
     background-color: beige;
     font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    text-decoration: underline;
 }
