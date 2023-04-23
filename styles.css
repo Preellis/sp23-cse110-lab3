@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/* Global Formatting */
-* {
-    background-color: beige;
-    font-family: 'Inter', sans-serif;
-    color: #333;
-}
 body {
     max-width: 1000px;
     margin: 0 auto;
