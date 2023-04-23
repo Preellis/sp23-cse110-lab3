@@ -33,3 +33,13 @@ header {
     grid-gap: 10px;
     align-items: start;
 }
+
+button:active {
+    background-color: rgb(255, 0,0);
+}
+.next-meeting:hover > .secret-text{
+    display: inline;
+}
+.secret-text {
+    display: none;
+}
