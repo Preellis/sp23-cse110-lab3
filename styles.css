@@ -59,7 +59,7 @@ details {
     align-items: center;
     flex-wrap: wrap;
 }
-#coolest-design {
+[alt="Design Template 3"] {
     flex-grow: 5;
     margin-left: 1rem;
     margin-right: 1rem;
