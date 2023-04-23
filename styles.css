@@ -24,13 +24,30 @@ header {
     height: 4rem;
     background-color: white;
     padding: .25rem;
+    border:3px solid black;
 }
 header p {
     background-color: white;
 }
 form {
     width: 500px;
+    margin: auto;
 }
+#title-wrapper h1 {
+    max-width: 30rem;
+    border-width: 4px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 10px;
+    padding-right:4rem;
+    padding-left: 5rem;
+    margin: auto;
+}
+
+#title-wrapper {
+    margin: 0 0 3rem 0;
+}
+
 
 #design-template-wrapper {
     display: flex;
@@ -41,6 +58,9 @@ form {
 }
 #coolest-design {
     flex-grow: 5;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 .media-wrapper {
@@ -49,6 +69,7 @@ form {
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     align-items: start;
+    margin-bottom: -15rem;
 }
 
 button:active {
@@ -65,15 +86,19 @@ footer {
     position: sticky;
     bottom: 0;
     background-color: hsla(96,27%,11%,.91);
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     color: hsl(96,27%,11%);
 }
 footer p {
     background-color: hsl(96,27%,11%);
     color: rgb(255,255,255);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 footer img {
     position: absolute;
-    top: 2rem;
+    top: 3rem;
+    right: 3rem;
     z-index: 1;
 }
