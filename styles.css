@@ -6,7 +6,11 @@
     font-family: 'Inter', sans-serif;
     color: #333;
 }
-
+@media (max-width: 1250px) {
+    #big-design {
+        display: none;
+    }
+}
 /* Formatting for Title */
 header {
     text-align: center;
